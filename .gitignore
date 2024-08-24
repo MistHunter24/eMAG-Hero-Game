@@ -1,0 +1,22 @@
+# Vendor directory
+docker-php-sample/vendor/
+
+# Composer lock file (optional)
+# Uncomment the line below if you choose not to include the lock file
+# /composer.lock
+
+# Environment-specific files
+docker-php-sample/.env
+
+# Log files
+*.log
+
+# Cache, build, and temp directories
+docker-php-sample/cache/
+docker-php-sample/build/
+docker-php-sample/tmp/
+
+# IDE and system files
+docker-php-sample/.idea/
+docker-php-sample/.vscode/
+docker-php-sample/.DS_Store
