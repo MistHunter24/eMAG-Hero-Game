@@ -4,6 +4,7 @@ namespace Controllers;
 
 use Models\Character;
 use Models\CharacterBuilder;
+//logica asta ar trebui sa fie mutata in controller. best case doar echo-urile sa ramana aici
 
 
 class BattleController {
