@@ -9,6 +9,8 @@ class CombatController {
     public static function takeDamage(Character $character, $damage) {
         $character->getStats()->setHealth($character->getStats()->getHealth() - $damage);
         echo "{$character->getName()} takes {$damage} damage.<br> {$character->getName()}'s health is now {$character->getStats()->getHealth()}.<br>";
+        echo "Memory usage: " . memory_get_usage() . " bytes<br>";
+
     }
 
     public static function attack(Character $attacker, Character $defender) {
