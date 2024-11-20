@@ -1,11 +1,12 @@
 run program:
     in project root:
         php -S localhost:8080 -t public
-        access http://localhost:8080
+        access: http://localhost:8080
 
 run unit tests:
     in project root:
         ./vendor/bin/phpunit tests/CharacterBuilderTest.php
+        or
         ./vendor/bin/phpunit tests/InitialTest.php
 
         - BattleControllerTest.php reveals a defect in the code
